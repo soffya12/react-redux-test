@@ -5,8 +5,6 @@ import thunk from 'redux-thunk'
 import { Provider } from 'react-redux'
 import { BrowserRouter, Route, Link, Switch, Redirect} from 'react-router-dom';
 
-
-
 import reducers from './reducer'
 import Auth from './Auth';
 import Dashboard from './Dashboard';
